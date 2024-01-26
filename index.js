@@ -29,7 +29,7 @@ app.use("/api/files", fileRouter);
 app.use("/api/mon", monRouter);
 
 app.get("/", (req, res) => {
-  res.status(200).send("Welcome to IK API");
+  res.status(200).send("Welcome to Arys Projects API");
 });
 
 // 404 route.
